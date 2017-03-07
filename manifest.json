@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Trello Team Search",
+  "version": "1.2.2",
+  "description": "Lets you search for cards by organization in Trello Search",
+  "content_scripts": [
+    {
+      "matches": ["https://trello.com/search?q=*"],
+      "js": ["main.trello-team-search.js"]
+    }
+  ]
+}
